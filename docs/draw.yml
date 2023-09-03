@@ -1,0 +1,136 @@
+parse_config:
+  trans_legend:
+    tap: ''
+    type: trans
+
+  raw_binding_map:
+    '&euro': €
+
+    '&bootloader':
+      tap: $$mdi:restart-alert$$
+      hold: boot
+
+    '&screenshot':
+      tap: $$mdi:monitor-screenshot$$
+      hold: scrnshot
+
+    '&word_prev':
+      tap: $$mdi:arrow-left$$
+      hold: word
+
+    '&word_next':
+      tap: $$mdi:arrow-right$$
+      hold: word
+
+    '&caps_word':
+      tap: $$mdi:apple-keyboard-caps$$
+      hold: word
+
+    '&win_max':
+      tap: $$mdi:resize$$
+      hold: max
+
+    '&win_l2':
+      tap: $$mdi:resize$$
+      hold: left 2
+
+    '&win_c2':
+      tap: $$mdi:resize$$
+      hold: center 2
+
+    '&win_r2':
+      tap: $$mdi:resize$$
+      hold: right 2
+
+    '&win_r3':
+      tap: $$mdi:resize$$
+      hold: right 3
+
+  zmk_keycode_map:
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
+    DOLLAR: $
+    DLLR: $
+    PERCENT: "%"
+    PRCNT: "%"
+    CARET: ^
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
+    LPAR: (
+    RPAR: )
+    EQUAL: "="
+    PLUS: +
+    MINUS: "-"
+    UNDER: _
+    SLASH:
+      tap: "/"
+      shifted: "?"
+    FSLH:
+      tap: "/"
+      shifted: "?"
+    QUESTION: "?"
+    QMARK: "?"
+    BSLH: '\'
+    PIPE: "|"
+    SEMI:
+      tap: ";"
+      shifted: ":"
+    COLON: ":"
+    SQT: "'"
+    DQT: '"'
+
+    DOT:
+      tap: "."
+      shifted: ">"
+    COMMA:
+      tap: ","
+      shifted: "<"
+    LBKT: "["
+    LBRC: "{"
+    RBKT: "]"
+    RBRC: "}"
+    GRAVE: "`"
+    TILDE: "~"
+
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LALT: $$mdi:apple-keyboard-option$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LCMD: $$mdi:apple-keyboard-command$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RALT: $$mdi:apple-keyboard-option$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RCMD: $$mdi:apple-keyboard-command$$
+
+    UARW: $$mdi:arrow-up$$
+    DARW: $$mdi:arrow-down$$
+    LARW: $$mdi:arrow-left$$
+    RARW: $$mdi:arrow-right$$
+
+    ENTER:
+      type: enter
+      tap: $$mdi:keyboard-return$$
+    TAB: $$mdi:keyboard-tab$$
+    SPACE: $$mdi:keyboard-space$$
+    BSPC:
+      type: backspace
+      tap: $$mdi:backspace-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
+
+    C_MUTE: $$mdi:volume-off$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
+    C_NEXT: $$mdi:skip-next$$
+    C_PREV: $$mdi:skip-previous$$
+    C_PP: $$mdi:play-pause$$
+
+    BT_CLR: $$mdi:bluetooth-off$$
+    BT_SEL: $$mdi:bluetooth-connect$$
